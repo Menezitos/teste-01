@@ -4,7 +4,7 @@ let numeroSecreto = gerarNumeroAleatorio();
 let tentativas = 1;
 exibirMensagemInicial();
 
-function exibirTextonaTela(tag, texto){
+function exibirTextonaTela(tag, texto) {
     let campo = document.querySelector(tag);
     campo.innerHTML = texto;
     
